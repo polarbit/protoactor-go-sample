@@ -1,10 +1,10 @@
 # Proto.Actor GO Sample App
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/polarbit/protoacto-go-sample)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/polarbit/protoacto-go-sample)
 
 ##### How To Run
-go run . worker -c 6331 -s 8080 -m 127.0.0.1:6331 -m 127.0.0.1:6332 -m 127.0.0.1:6333 
-go run . worker -c 6332 -s 8081 -m 127.0.0.1:6331 -m 127.0.0.1:6332 -m 127.0.0.1:6333 
-go run . worker -c 6333 -s 8082 -m 127.0.0.1:6331 -m 127.0.0.1:6332 -m 127.0.0.1:6333 
+go run . worker -c 6331 -s 8080 -m 127.0.0.1:6331 -m 127.0.0.1:6332 -m 127.0.0.1:6333  
+go run . worker -c 6332 -s 8081 -m 127.0.0.1:6331 -m 127.0.0.1:6332 -m 127.0.0.1:6333  
+go run . worker -c 6333 -s 8082 -m 127.0.0.1:6331 -m 127.0.0.1:6332 -m 127.0.0.1:6333  
 go run . client
 
 ##### Notes
