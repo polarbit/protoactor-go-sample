@@ -8,10 +8,9 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "bl-wallet",
-	Short: "BlueLabs wallet management system",
-	Long: `This is customer wallet management system for the BlueLabs betting platform.
-				  Intended to be used only internal services and apps.`,
+	Use:   "protogo",
+	Short: "A sample for proto-go cluster",
+	Long:  `...`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// Do Stuff Here
 	},
